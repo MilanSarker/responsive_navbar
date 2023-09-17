@@ -1,0 +1,34 @@
+@media(max-width: 927px){
+
+    #check_btn{
+        display: block;
+    }
+    #check{
+        display: none;
+       
+    }
+    nav ul{
+        width: 100%;
+        height: 100vh;
+        background:red;
+        position: fixed;
+        top: 50px;
+        left: -100%;
+        transition: .4s all ease-in-out;
+    }
+    nav ul li{
+        
+        display: block;
+        text-align: center;
+       
+    }
+    
+}
+@media(max-width: 411px){
+
+    .logo {
+       
+        margin:0px 10px;
+        
+    }
+}
